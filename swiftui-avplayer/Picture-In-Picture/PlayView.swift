@@ -25,7 +25,7 @@ struct PlayView: View {
         VStack {
             ZStack {
                 VideoPlayerView(player: player)
-                MovingWatermark(text: "userId")
+//                MovingWatermark(text: "userId")
             }
             .frame(height: 300)
 
