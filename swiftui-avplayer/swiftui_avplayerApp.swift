@@ -1,17 +1,15 @@
-//
-//  swiftui_avplayerApp.swift
-//  swiftui-avplayer
-//
-//  Created by PropertyShare on 02/07/26.
-//
+
 
 import SwiftUI
 
 @main
 struct swiftui_avplayerApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self)
+    var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayView()
         }
     }
 }
